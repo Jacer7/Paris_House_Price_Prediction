@@ -10,10 +10,10 @@ from pipeline.preprocess import MODELS_DIR
 app = FastAPI()
 
 
-# Route for test
-@app.get("/")
-async def index():
-    return {"api_name": "linear_regression"}
+# # Route for test
+# @app.get("/")
+# async def index():
+#     return {"api_name": "linear_regression"}
 
 class Item(BaseModel):
     size: int
