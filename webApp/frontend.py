@@ -9,8 +9,9 @@ PREDICT_MENU = "Predict"
 # url = "http://127.0.0.1:8000/predict"
 url = "https://predict-price-house-paris.herokuapp.com/predict"
 
+st.title("Data Science Project")
 st.title("House Price Prediction in Paris")
-
+st.write("Created by: Jayshwor KHADKA")
 
 def show_form():
     with st.form("my_form"):
