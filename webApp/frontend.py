@@ -6,7 +6,8 @@ import streamlit as st
 
 HOME_MENU = "Home"
 PREDICT_MENU = "Predict"
-url = "http://127.0.0.1:8000/predict"
+# url = "http://127.0.0.1:8000/predict"
+url = "https://predict-price-house-paris.herokuapp.com/predict"
 
 st.title("House Price Prediction in Paris")
 
