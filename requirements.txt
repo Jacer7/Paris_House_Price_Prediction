@@ -8,4 +8,4 @@ numpy~=1.21.4
 matplotlib~=3.5.1
 altair~=4.2.0
 pandas~=1.4.0
-gunicorn=20.1.0
+gunicorn~=20.1.0
